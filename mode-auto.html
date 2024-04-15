@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tik-Tak-Toe</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h3>Tik - Tak - Toe</h3>
+    <div class="game-area">
+      <div data-index="0" class="box"></div>
+      <div data-index="1" class="box"></div>
+      <div data-index="2" class="box"></div>
+      <div data-index="3" class="box"></div>
+      <div data-index="4" class="box"></div>
+      <div data-index="5" class="box"></div>
+      <div data-index="6" class="box"></div>
+      <div data-index="7" class="box"></div>
+      <div data-index="8" class="box"></div>
+      <div class="line line-1 row-line"></div>
+      <div class="line line-2 row-line"></div>
+      <div class="line line-3 row-line"></div>
+      <div class="line line-4 column-line"></div>
+      <div class="line line-5 column-line"></div>
+      <div class="line line-6 column-line"></div>
+      <div class="line line-7 adj-line"></div>
+      <div class="line line-8 adj-line"></div>
+      <div class="overlay-result">
+        <div class="background"><span id="winner"></span><span id="sec"></span></div>
+        <div class="result"></div>
+      </div>
+    </div>
+    <div class="turns"></div>
+    <div class="buttons">
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <script src="scripts/Autoplay.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
